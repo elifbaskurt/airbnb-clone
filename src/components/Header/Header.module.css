@@ -1,0 +1,155 @@
+.header {
+    border-bottom: 1px solid #e0e0e0;
+    height: 175px;
+}
+
+.topContainer {
+    width: 100%;
+    height: 46%;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.firstContent {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.logoText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff385c;
+}
+
+.secondContent {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 10px;
+}
+
+.secondContent a {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+/* Pasif durumdaki link stili */
+.link {
+    text-decoration: none;
+    color: #6A6A6A;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+/* Aktif durumdaki link stili */
+.activeLink {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link:hover {
+    padding: 10px 13px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    transition: all 0.2s ease;
+}
+
+.lastContent {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.modal {
+    color: #222222;
+    font-size: 0.8725rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal:hover {
+    padding: 9px 11px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    transition: all 0.2s ease;
+}
+
+.search {
+    cursor: pointer;
+}
+
+.search:hover {
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #f0f0f0;
+    transition: all 0.2s ease;
+}
+
+.search .world {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.userMenu {
+    cursor: pointer;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 40px;
+    padding: 9px 10px 9px 16px;
+    transition: box-shadow 0.2s ease;
+}
+
+.userMenu:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu{
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    width: 16px;
+    height: 16px;
+    object-fit: none;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.user {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    width: 30px;
+    height: 30px;
+    object-fit: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.bottomContainer {
+    width: 100%;
+    height: 54%;
+    background-color: blue;
+}
