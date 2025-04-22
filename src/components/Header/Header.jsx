@@ -63,7 +63,39 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className={styles.bottomContainer}></div>
+      <div className={styles.bottomContainer}>
+        <div className={styles.searchContainer}>
+          <div className={styles.location}>
+            <h4>Yer</h4>
+            <p>Gidilecek yerleri arayın</p>
+          </div>
+          <div className={styles.checkIn}>
+            <h4>Giriş</h4>
+            <p>Tarih ekleyin</p>
+          </div>
+          <div className={styles.checkOut}>
+            <h4>Çıkış</h4>
+            <p>Tarih ekleyin</p>
+          </div>
+          <div className={styles.guest}>
+            <h4>Kişiler</h4>
+            <p>Misafir ekleyin</p>
+          </div>
+          <div className={styles.searchButton}>
+            <div className={styles.searchButtonArea}>
+              <Image src="/img/img-header/search.png"
+                className={styles.searchButtonImage}
+                alt="search"
+                width={16}
+                height={16} />
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div className={styles.sliderContainer}>
+
+      </div>
     </header>
   )
 }
