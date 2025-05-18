@@ -1,0 +1,164 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Istanbul, Turkey",
+            "rating": 4.5,
+            "details": "İstanbul yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/a1.png",
+                "/img/img-locations/a2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Paris, France",
+            "rating": 4.7,
+            "details": "Paris yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/b1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Tokyo, Japan",
+            "rating": 4.8,
+            "details": "Tokyo yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/c1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "New York, USA",
+            "rating": 4.9,
+            "details": "New York yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/d1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Sydney, Australia",
+            "rating": 4.6,
+            "details": "Sydney yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/e1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Dubai, UAE",
+            "rating": 4.7,
+            "details": "Dubai yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/f1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Rio de Janeiro, Brazil",
+            "rating": 4.8,
+            "details": "Rio de Janeiro yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/g1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "CapeTown, Africa",
+            "rating": 4.9,
+            "details": "Cape Town yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/h1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Moscow, Russia",
+            "rating": 4.6,
+            "details": "Moscow yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/i1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Singapore, Singapore",
+            "rating": 5.0,
+            "details": "Singapore yakınlarında",
+            "date": "1-6 mayıs",
+            "price": "20.000 ₺",
+            "days": "(3 gece için)",
+            "images": [
+                "/img/img-locations/j1.png",
+                "/img/img-locations/b2.png",
+                "/img/img-locations/b1.png",
+                "/img/img-locations/c1.png",
+                "/img/img-locations/d1.png"
+            ]
+        }
+    ]
+}

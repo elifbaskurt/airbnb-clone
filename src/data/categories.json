@@ -1,0 +1,129 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Ağaç Evler",
+            "image": "/img/img-slider/ağaç ev.png"
+        },
+        {
+            "id": 2,
+            "name": "Çiftlikler",
+            "image": "/img/img-slider/çiftlikler.png"
+        },
+        {
+            "id": 3,
+            "name": "Çöl",
+            "image": "/img/img-slider/çöl.png"
+        },
+        {
+            "id": 4,
+            "name": "Göl Yakınında",
+            "image": "/img/img-slider/göl yakınında.png"
+        },
+        {
+            "id": 5,
+            "name": "Golf",
+            "image": "/img/img-slider/golf.png"
+        },
+        {
+            "id": 6,
+            "name": "Güzel Manzaralar",
+            "image": "/img/img-slider/güzel manzaralar.png"
+        },
+        {
+            "id": 7,
+            "name": "Muhteşem havuzlar",
+            "image": "/img/img-slider/havuz.png"
+        },
+        {
+            "id": 8,
+            "name": "Kamp",
+            "image": "/img/img-slider/kamp.png"
+        },
+        {
+            "id": 9,
+            "name": "Kayak",
+            "image": "/img/img-slider/kayak.png"
+        },
+        {
+            "id": 10,
+            "name": "Kırsal",
+            "image": "/img/img-slider/kırsal.png"
+        },
+        {
+            "id": 11,
+            "name": "Kuyruklu Pianolar",
+            "image": "/img/img-slider/kuyruklı piano.png"
+        },
+        {
+            "id":12,
+            "name":"Kuzey Kutbu",
+            "image": "/img/img-slider/kuzey kutbu.png"
+        },
+        {
+            "id":"13",
+            "name":"Olağanüstü",
+            "image":"/img/img-slider/olaganus.png"
+        },
+        {
+            "id":"14",
+            "name":"Mağara",
+            "image":"/img/img-slider/mağara.png"
+        },
+        {
+            "id":"15",
+            "name":"Oda-Kahvaltılar",
+            "image":"/img/img-slider/oda-kahvaltılar.png"
+        },
+        {
+            "id":"16",
+            "name":"Odalar",
+            "image":"/img/img-slider/odalar.png"                    
+        },
+        {
+            "id":"17",
+            "name":"Popüler",
+            "image":"/img/img-slider/popular.png"
+        },
+          {
+            "id":"18",
+            "name":"Şatolar",
+            "image":"/img/img-slider/şatolat.png"
+        },
+        {
+            "id":"19",
+            "name":"Şebeke Dışı",
+            "image":"/img/img-slider/şebeke dışı.png"
+        },
+        {
+            "id":"20",
+            "name":"Simgesel Kentler",
+            "image":"/img/img-slider/simgesel kentler.png"
+        },
+        {
+            "id":"21",
+            "name":"Sörf",
+            "image":"/img/img-slider/sörf.png"
+        },
+        {
+            "id":"22",
+            "name":"Tekne Evleri",
+            "image":"/img/img-slider/tekne evler.png"
+        },
+        {
+            "id":"23",
+            "name":"Tekneler",
+            "image":"/img/img-slider/tekneler.png"
+        },
+        {
+            "id":"24",
+            "name":"Üzüm Bağları",
+            "image":"/img/img-slider/üzüm bağları.png"
+        },
+        {
+            "id":"25",
+            "name":"Yaratıcı Alanlar",
+            "image":"/img/img-slider/yaratıcı alanlar.png"
+        }
+    ]
+} 

@@ -1,0 +1,159 @@
+.page {
+  padding: 10px 70px;
+  margin: 0 auto;
+}
+
+.locationGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.locationItem {
+  width: 100%;
+  text-align: center;
+}
+
+/******************************************slider******************************************/
+.sliderContainer {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.locationImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+  position: relative;
+}
+.likeButton {
+  z-index: 1000;
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  opacity: 1;
+}
+.sliderButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.sliderButton:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.sliderContainer:hover .sliderButton {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.prevButton {
+  left: 10px;
+}
+
+.nextButton {
+  right: 10px;
+}
+.sliderDots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.3s;
+}
+
+.activeDot {
+  background: white;
+}
+
+
+/**********************************************************location info **********************************************************/
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+.locationInfo {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.locationItem h3 {
+  font-size: 1rem;
+  color: #222222;
+  font-weight: 600;
+}
+.locationDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.locationDetails p {
+  color:#6A6A6A;
+  text-align: left;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.price {
+  text-decoration: underline;
+  color:#222222 !important;
+  cursor: pointer;
+  font-weight: 600;
+}
